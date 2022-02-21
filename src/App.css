@@ -1,38 +1,141 @@
-.App {
+.main-container {
+}
+
+.main-header {
+  background: #F6F6F7 !important;
+  margin-bottom: 35px !important;
+}
+
+.navbar {
+  height: 30px;
+  font-size: 12px;
+}
+
+.dropdown-menu {
+  left: -210px !important;
+}
+
+
+
+.cart {
+  padding: 15px;
+  width: 300px;
+}
+
+.cart-remove {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  color: red;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.cart-item {
+  width: 100% !important;
+  min-height: 60px;
+  width: 60px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cart-item-image img {
+  height: 120px;
+}
+
+.cart-item-image{
+  float: left
+}
+
+.cart-item-desc{
+  float: left;
+}
+
+.item-container {
+  max-width: 1024px !important;
+  margin-bottom: 30px;
+}
+
+.item-image-container {
+  margin-bottom: 20px;
+}
+
+.item-image {
+  height: 630px;
+}
+
+.item-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.item-price {
+  font-weight: 700;
+}
+
+.item-desc{
+  color: #888888;
+}
+
+.item-size-container {
+  color: #888888;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.item-size {
+  color: #888888;
+  font-weight: 500;
+  font-size: 19px;
+  border: solid 2px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin-right: 10px;
+  display: inline-flex;
   text-align: center;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item-text {
+  width: 20px;
+  position: relative;
+  top: -2px;
+  right: -3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item-size:hover {
+  /* color: #222222;
+  border: solid 2px #222222; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.item-size.selected {
+  color: #222222;
+  border: solid 2px #222222;
 }
 
-.App-link {
-  color: #61dafb;
+.item-required-indicator {
+  color: #C90000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item-controls {
+  margin-top: 15px;
+}
+
+.item-controls button{
+  border: solid 2px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0px;
+}
+
+
+.item-controls button:hover{
+  border: solid 2px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0px;
+  color: #FFFFFF;
+  background: #222222;
 }

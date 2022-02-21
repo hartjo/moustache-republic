@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #222222 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+hr {
+  margin-top: 1rem  !important;
+  margin-bottom: 1rem  !important;
+  border: 0  !important;
+  border-top: 1px solid rgb(205 205 205) !important;
+}
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
 }
